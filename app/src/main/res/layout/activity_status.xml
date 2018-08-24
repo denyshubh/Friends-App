@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".StatusActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/status_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/til_status_input"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_status_input"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:hint="Your Status" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save_Changes"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@color/linkdin_blue"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="184dp"
+        android:text="Save Changes" />
+
+
+</RelativeLayout>

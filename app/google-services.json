@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710848081489",
+    "firebase_url": "https://friendsapp2-f44ac.firebaseio.com",
+    "project_id": "friendsapp2-f44ac",
+    "storage_bucket": "friendsapp2-f44ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710848081489:android:eff2c7b72b1e4782",
+        "android_client_info": {
+          "package_name": "com.knstech.friendsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710848081489-nshu3kintdm9qritthb5v8co534kgig6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knstech.friendsapp2",
+            "certificate_hash": "58b49631d6df8d3b4f9b8f4b933180fae467c46a"
+          }
+        },
+        {
+          "client_id": "710848081489-9m5a1ffsm56udfhhn38ntlt51bua65ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKxlgarPCpVpvcjNgMVnEtso--zcstD4g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710848081489-9m5a1ffsm56udfhhn38ntlt51bua65ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

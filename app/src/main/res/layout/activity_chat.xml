@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/msgback1"
+    tools:context=".ChatActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/chat_appbar"></include>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/swipe_message_swipe_layout"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chat_appbar"
+
+        android:layout_above="@id/chat_cardView">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="588dp"
+        android:id="@+id/messages_list">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/chat_cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#ffff"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_chatActivity_add"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:src="@drawable/ic_attach_file_black_24dp" />
+
+        <EditText
+            android:id="@+id/et_chat_message"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginLeft="38dp"
+            android:bufferType="editable"
+            android:cursorVisible="true"
+            android:fontFamily="casual"
+            android:hint="Type a Message..."
+            android:keepScreenOn="true"
+            android:linksClickable="true"
+            android:outlineProvider="bounds"
+            android:overScrollMode="ifContentScrolls"
+            android:padding="5dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/youtube_black"
+            android:textColorHint="@color/youtube_black"
+            android:textSize="15sp"
+            android:verticalScrollbarPosition="right" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_chatActivity_send"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_send_black_24dp" />
+
+
+        <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f2f2f2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_chatActivity_add"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#f2f2f2"
+                    android:padding="15dp"
+                    android:cropToPadding="true"
+                    android:src="@drawable/add" />
+
+                <EditText
+                    android:layout_width="285dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_weight="8"
+                    android:bufferType="editable"
+                    android:cursorVisible="true"
+                    android:fontFamily="casual"
+                    android:keepScreenOn="true"
+                    android:linksClickable="true"
+                    android:outlineProvider="bounds"
+                    android:overScrollMode="ifContentScrolls"
+                    android:padding="10dp"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:selectAllOnFocus="true"
+                    android:textColor="#636262"
+                    android:textSize="15sp"
+                    android:id="@+id/et_chat_message"
+                    android:verticalScrollbarPosition="right" />
+
+                <ImageButton
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#f2f2f2"
+                    android:id="@+id/btn_chatActivity_send"
+                    android:padding="5dp"
+                    android:cropToPadding="true"
+                    android:src="@drawable/ic_send_black_24dp" />
+            </LinearLayout>
+              -->
+    </android.support.v7.widget.CardView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/btn_chatActivity_record"
+        android:layout_toRightOf="@id/chat_cardView"
+        android:layout_width="49dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="5dp"
+        app:civ_fill_color="@color/linkdin_blue"
+        android:src="@drawable/ic_mic_red_24dp" />
+
+
+
+
+
+</RelativeLayout>

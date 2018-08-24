@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="45"
+        android:startColor="@color/linkdin_blue"
+        android:endColor="@color/youtube_black"
+        ></gradient>
+    <corners
+        android:bottomLeftRadius="500dp"
+        android:bottomRightRadius="500dp"></corners>
+
+
+</shape>

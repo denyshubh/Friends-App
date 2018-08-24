@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/login_toolbar"
+        />
+    <TextView
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login "
+        app:layout_constraintTop_toBottomOf="@id/login_toolbar"
+        android:id="@+id/tv_login_account"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="177dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_login_account"
+        android:id="@+id/login_til_email">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_et_email"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/background_light" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toBottomOf="@id/login_til_email"
+        tools:layout_editor_absoluteY="246dp"
+        android:id="@+id/login_til_pwd">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/login_til_pwd"
+        android:layout_margin="50dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_login"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_shape"
+        android:text="LOGIN"/>
+
+    <Button
+        android:id="@+id/btn_phone_login"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content"
+        android:text="Login Using Phone"
+        android:background="@drawable/button_shape2"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

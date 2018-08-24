@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context="com.knstech.friendsapp2.PhotoActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/delete_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/redhex"
+        android:text="DELETE POST" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/propic"
+        android:id="@+id/img_full_screen"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>

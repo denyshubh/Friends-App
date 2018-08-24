@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_bar_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_chat_custom_display_name"
+        android:layout_marginEnd="30dp"
+        android:layout_alignRight="@id/tv_chat_custom_display_name"
+        android:src="@drawable/propic"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv_chat_custom_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif-monospace"
+        android:text="DISPLAY NAME"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_chat_custom_last_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_chat_custom_display_name"
+        android:layout_marginTop="30dp"
+        android:text="Last Seen" />
+
+</RelativeLayout>

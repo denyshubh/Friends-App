@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+    <gradient
+        android:startColor="@color/green_google"
+        android:centerColor="@color/green_whatsapp"
+        android:endColor="@color/darkgreen_whatsapp"
+        android:angle="90"
+
+        />
+
+    <padding
+
+        android:top="7dp"
+        android:right="7dp"
+        android:bottom="7dp"
+        android:left="7dp"
+        />
+    <stroke
+        android:width="2dip"
+        android:color="#FFFFFF"
+        />
+    <corners android:radius="8dp"/>
+
+</shape>

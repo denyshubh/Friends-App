@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".ProfileActivity">
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       app:cardElevation="10dp"
+       >
+
+       <ImageView
+           android:id="@+id/iv_profile_propic"
+           android:layout_width="match_parent"
+           android:src="@drawable/propic"
+           android:background="#ffffff"
+           android:layout_height="match_parent" />
+
+   </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="281dp"
+        android:fontFamily="serif-monospace"
+        android:text="Display Name"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="252dp"
+        android:text="Hii! I'm Using Friends App"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/tv_profile_friendsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="384 Friends    |    3 Mutual Friends"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        app:cardElevation="10dp"
+        app:contentPadding="5dp">
+
+        <Button
+            android:id="@+id/btn_profile_send_friend_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:text="SEND FRIEND REQUEST"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardBackgroundColor="#323232"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        app:contentPadding="5dp">
+
+        <Button
+            android:id="@+id/btn_profile_decline_friend_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="DECLINE FRIEND REQUEST"
+            android:textColor="#ffffff" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007bb5</color>
+    <color name="colorPrimaryDark">#14171a</color>
+    <color name="colorAccent">#f5f8fa</color>
+    <color name="facebook1">#3b5998</color>
+    <color name="facebook2">#e9ebee</color>
+    <color name="facebook3">#4267b2</color>
+    <color name="redhex">#ff0000</color>
+    <color name="youtube_black">#282828</color>
+    <color name="linkdin_blue">#00a0dc</color>
+    <color name="redhex_google">#db4437</color>
+    <color name="blue_google">#4285f4</color>
+    <color name="red_google">#ea4335</color>
+
+    <color name="green_google">#34a853</color>
+    <color name="yellow_google">#fbbc05</color>
+    <color name="green_whatsapp">#25d366</color>
+    <color name="darkgreen_whatsapp">#075e54</color>
+    <color name="prusian_blue">#336699</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

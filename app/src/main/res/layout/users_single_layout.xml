@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+   app:cardBackgroundColor="#ffff"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/users_cv_propic"
+        android:src="@drawable/propic"/>
+
+    <TextView
+        android:id="@+id/tv_users_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="serif-monospace"
+        android:text="Display Name"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_users_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_users_name"
+        android:layout_marginTop="58dp"
+        android:textColor="#7a7575"
+        android:text="Hi I'm Using Friends App" />
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_users_name"
+        android:layout_marginEnd="43dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/online" />
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/new_post_relative_layout"
+    android:background="@drawable/back2"
+    tools:context=".NewPostActivity">
+
+
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/new_post_toolbar"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#00ffffff"
+        android:src="@drawable/img"
+        android:scaleType="centerCrop"
+        android:contextClickable="true"
+        android:layout_below="@id/new_post_toolbar"
+        android:id="@+id/blog_add_image_btn"
+
+        android:tooltipText="Click here to add Image"
+
+        />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@drawable/input_outline"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:hint="POST TITLE..."
+        android:fontFamily="serif-monospace"
+        android:layout_below="@id/blog_add_image_btn"
+        android:id="@+id/et_post_title"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+
+        android:hint="POST DESCRIPTION..."
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:layout_below="@id/et_post_title"
+        android:textSize="16sp"
+
+        android:id="@+id/et_post_desc"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_post_desc"
+        android:id="@+id/post_btn"
+        android:padding="10dp"
+        android:text="POST"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+        android:background="@color/linkdin_blue"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>
