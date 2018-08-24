@@ -1,15 +1,16 @@
 # Friends-App
-This is a simple #CHAT and BLOGGING APP
+This is a simple 
+# CHAT and BLOGGING APP
 This app is has a combined idea of both facebook and whatsapp 
 
-#Warning
+# Warning
 The Gradle file has been edited for security purpose. You need to include your own project's gradle Fields in "google services.json" file. Without that the app wont run.
 
-#Before you continue
+# Before you continue
 The App is Still work in progress so this may contain some errors. The source code will be updated along with the upcoming updates. 
 As the project is based on a youtube education factor.
 
-#SNAPSHOTS 
+# SNAPSHOTS 
 
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-08-308_com.knstech.friendsapp2.png)
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-14-860_com.knstech.friendsapp2.png)
@@ -24,6 +25,6 @@ As the project is based on a youtube education factor.
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-56-899_com.knstech.friendsapp2.png)
 
 
-#Updates
+# Updates
 [ 24 Aug, 2018 ] - 
 
