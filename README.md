@@ -11,17 +11,18 @@ As the project is based on a youtube education factor.
 
 #SNAPSHOTS 
 
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-08-308_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-14-860_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-43-502_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-17-433_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-34-19-404_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-34-01-454_com.miui.player.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-33-28-465_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-32-30-441_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-13-54-41-240_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-22-52-59-146_com.knstech.friendsapp2.png
-https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-56-899_com.knstech.friendsapp2.png
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-08-308_com.knstech.friendsapp2.png)
+
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-14-860_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-43-502_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-17-433_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-34-19-404_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-34-01-454_com.miui.player.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-33-28-465_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-19-32-30-441_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-24-13-54-41-240_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-22-52-59-146_com.knstech.friendsapp2.png)
+![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-56-899_com.knstech.friendsapp2.png)
 
 
 #Updates
