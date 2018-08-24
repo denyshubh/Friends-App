@@ -12,7 +12,6 @@ As the project is based on a youtube education factor.
 #SNAPSHOTS 
 
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-08-308_com.knstech.friendsapp2.png)
-
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-14-860_com.knstech.friendsapp2.png)
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-53-43-502_com.knstech.friendsapp2.png)
 ![alt text](https://github.com/denyshubh/Friends-App/blob/master/Saved%20Pictures/Screenshot_2018-08-13-15-57-17-433_com.knstech.friendsapp2.png)
